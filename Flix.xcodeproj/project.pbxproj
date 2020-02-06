@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		071927CC23E2B0B50040CB39 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071927CB23E2B0B50040CB39 /* MovieCell.swift */; };
+		077EF60223EBE38E00A149B9 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EF60123EBE38E00A149B9 /* MovieDetailsViewController.swift */; };
+		077EF60423EBEBC500A149B9 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EF60323EBEBC500A149B9 /* MovieGridViewController.swift */; };
+		077EF60623EBFDDF00A149B9 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EF60523EBFDDE00A149B9 /* MovieGridCell.swift */; };
 		07A99F7923DFE98D00BD1787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A99F7823DFE98D00BD1787 /* AppDelegate.swift */; };
 		07A99F7B23DFE98D00BD1787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A99F7A23DFE98D00BD1787 /* SceneDelegate.swift */; };
 		07A99F7D23DFE98D00BD1787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A99F7C23DFE98D00BD1787 /* ViewController.swift */; };
@@ -40,6 +43,9 @@
 
 /* Begin PBXFileReference section */
 		071927CB23E2B0B50040CB39 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		077EF60123EBE38E00A149B9 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		077EF60323EBEBC500A149B9 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		077EF60523EBFDDE00A149B9 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		07A99F7523DFE98D00BD1787 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A99F7823DFE98D00BD1787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07A99F7A23DFE98D00BD1787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,10 +128,13 @@
 				07A99F7A23DFE98D00BD1787 /* SceneDelegate.swift */,
 				07A99F7C23DFE98D00BD1787 /* ViewController.swift */,
 				07A99F7E23DFE98D00BD1787 /* Main.storyboard */,
+				077EF60323EBEBC500A149B9 /* MovieGridViewController.swift */,
+				077EF60123EBE38E00A149B9 /* MovieDetailsViewController.swift */,
 				07A99F8123DFE98E00BD1787 /* Assets.xcassets */,
 				07A99F8323DFE98E00BD1787 /* LaunchScreen.storyboard */,
 				07A99F8623DFE98E00BD1787 /* Info.plist */,
 				071927CB23E2B0B50040CB39 /* MovieCell.swift */,
+				077EF60523EBFDDE00A149B9 /* MovieGridCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -168,7 +177,6 @@
 				F06DAF667B72DA98EC89D41D /* Pods-FlixTests.debug.xcconfig */,
 				FFBC1FBA22978777F083AA9E /* Pods-FlixTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -411,10 +419,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077EF60223EBE38E00A149B9 /* MovieDetailsViewController.swift in Sources */,
 				07A99F7D23DFE98D00BD1787 /* ViewController.swift in Sources */,
 				07A99F7923DFE98D00BD1787 /* AppDelegate.swift in Sources */,
 				071927CC23E2B0B50040CB39 /* MovieCell.swift in Sources */,
 				07A99F7B23DFE98D00BD1787 /* SceneDelegate.swift in Sources */,
+				077EF60423EBEBC500A149B9 /* MovieGridViewController.swift in Sources */,
+				077EF60623EBFDDF00A149B9 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
